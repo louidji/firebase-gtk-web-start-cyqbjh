@@ -9,6 +9,8 @@ import "firebase/firestore";
 
 import * as firebaseui from 'firebaseui';
 
+
+
 // Document elements
 const startRsvpButton = document.getElementById('startRsvp');
 const guestbookContainer = document.getElementById('guestbook-container');
@@ -37,6 +39,7 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
 
 // firebase.initializeApp(firebaseConfig);
 
